@@ -1,2 +1,2 @@
-# meda-spring2020-eduardo
+# meda-spring2020-logan
 Assignments and Projects
