@@ -1,0 +1,41 @@
+body{
+    line-height:1.4;
+    background-color:#000000;
+    color:#34373B;
+    padding:2em;
+  } 
+  .float--right{
+    float:right!important;
+    margin-left:1em;
+  }
+  .float--left{
+    float:left !important;
+    margin-right:1em;
+  }
+  .clearfix:after{
+    content:"";
+    display:table;
+    clear:both;
+  }
+  .app{
+    width:450px;
+    margin:0 auto;
+    padding:1em;
+    padding-top:3em;
+    background:#999999;
+    border-top:10px solid #4F211D;
+  }
+  h3{
+    margin:0;
+    line-height:1em;
+  }
+  small{
+    text-transform:uppercase;
+    font-size:10px;
+    letter-spacing:1px;
+    color:#4F211D;
+  }
+  .row{
+    margin-bottom:2em;
+    border-bottom:1px solid #4F211D;
+  }
