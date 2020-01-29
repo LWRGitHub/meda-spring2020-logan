@@ -17,12 +17,40 @@
 
         p{
             color: whitesmoke;
-            font-size: 12px;
+            font-size: 23px;
+            /* This font-family rule has three fallback options. */
+            font-family: Arial, Helvetica, sans-serif;
+            border-width: 5px;
+            border-color: fuchsia;
+            border-style: dashed;
+            margin-top: 100px;
         }
 
         h1{
             color:blueviolet;
-            font-size: 23.4px;
+            font-size: 43.2px;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: lightcyan;
+            /* The following two rules only apply to block-level elements */
+            /*  */
+            width: 320px;
+            border: 10px solid blue;
+            margin-bottom: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            margin: 50px auto 50px auto;
+            margin: 50px auto;
+            margin: auto;
+            /* padding-top, padding-bottom, padding-left, padding-right, padding */
+            padding: 30px;
+        }
+
+        img{
+            max-width: 300px;
+            border-width: 5px;
+            border-style: dotted;
+            border-color: darkmagenta;
+            
         }
 
     </style>    
@@ -33,6 +61,9 @@
     <h1>Hello there!</h1>
     <p>This is my wepage</p>
 
+    <p>This is another sentence.</p>
+
+    <img src="donuts.jpg" alt="Yummy sprinkled donuts with colorful cake like glase" />
 
 
 </body>
