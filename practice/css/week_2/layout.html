@@ -8,22 +8,48 @@
 
         <style>
             #header {
-                background-color: chocolate;
+                background-color: cyan;
                 color: cornsilk;
                 padding: 40px;
             }
 
             #header h1{
-                color: darkgrey;
+                color: deeppink;
             }
 
             #main{
-                background-color: lightcoral;
+                background-color: lightpink;
                 color: whitesmoke;
                 padding: 10px;
                 margin: 50px;
                 border-radius: 20px;
                 border:solid 2px lightskyblue;
+            }
+            #pid1{
+                color:rgb(162, 68, 255);
+            }
+            #footer{
+                background-color: salmon;
+                width: 400px;
+                height: 400px;
+                margin: auto;
+            }
+            #footer h6{
+                color: white;
+            }
+            #food-list{
+                list-style-type: square;
+                background-color: teal;
+                
+                text-align: center;
+                padding: auto;
+            }
+            #food-list li{
+                display: inline-block;
+                background-color: yellow;
+                text-align: center;
+                margin:  10px auto;
+                padding: 10px;
             }
         </style>
 
@@ -34,18 +60,35 @@
         <!-- HTML5 version is <header></header> -->
         <div id="header">
             <h1>This it the title of the heder area.</h1>
-            <p>This area is the first div.</p>
+            <p id="pid1">This area is the first div.</p>
         </div>
 
         <!-- HTML5 version is <main></main> -->
         <div id="main">
-            <p>This area is the second div.</p>
+            <p id="pid1">This area is the second div.</p>
         </div>
 
         <!-- HTML5 version is <footer></footer> -->
         <div id="footer">
-            <p>&copy; 2020 LWR</p>
+            <p>&copy; 2020 <span id="Web">Web builder</span>LWR</p>
+            <h6>This is really tiny text as well!</h6>
+
+            <div>
+                <h6>This is really tiny text!</h6>
+            </div>
+
         </div>
+
+        <ul id="food-list">
+            <li>Sushi</li>
+            <li>vegan food</li>
+            <li>vegan Cheese</li>
+            <li>pupusas</li>
+            <li>frise</li>
+            <li>vegan burger</li>
+            <li>vegan staek</li>
+            <li>Algae</li>
+        </ul>
         
     </body>
 
