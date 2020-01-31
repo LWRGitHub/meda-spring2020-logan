@@ -20,17 +20,25 @@
             #main{
                 background-color: lightpink;
                 color: whitesmoke;
+                width: 500px;
                 padding: 10px;
-                margin: 50px;
+                margin: 10px auto;
                 border-radius: 20px;
                 border:solid 2px lightskyblue;
             }
+
+            #main div{
+                height: 100px;
+                background-color: darksalmon;
+                margin-bottom: 10px;
+            }
+
             #pid1{
                 color:rgb(162, 68, 255);
             }
             #footer{
                 background-color: salmon;
-                width: 400px;
+                width: 500px;
                 height: 400px;
                 margin: auto;
             }
@@ -40,9 +48,10 @@
             #food-list{
                 list-style-type: square;
                 background-color: teal;
-                
+                width: 500px;
                 text-align: center;
                 padding: auto;
+                margin: auto;
             }
             #food-list li{
                 display: inline-block;
@@ -50,6 +59,13 @@
                 text-align: center;
                 margin:  10px auto;
                 padding: 10px;
+            }
+            iframe{
+              display:
+            }
+            #video{
+                width: 500px;
+                margin: 0 auto;
             }
         </style>
 
@@ -70,7 +86,7 @@
 
         <!-- HTML5 version is <footer></footer> -->
         <div id="footer">
-            <p>&copy; 2020 <span id="Web">Web builder</span>LWR</p>
+            <p>&copy; 2020 <span id="Web">Web builder</span> LWR</p>
             <h6>This is really tiny text as well!</h6>
 
             <div>
@@ -89,6 +105,10 @@
             <li>vegan staek</li>
             <li>Algae</li>
         </ul>
+
+        <div id="video">
+            <iframe  width="500" height="300" src="https://www.youtube.com/embed/I-EIVlHvHRM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
         
     </body>
 
