@@ -46,7 +46,7 @@
     #main {
         color:darkblue;
         width: 880px;
-        height: 400px;
+
         border: solid 10px orange;
         
         margin: 25px auto;
@@ -54,10 +54,32 @@
     }
 
     #main div {
-        border-radius: 50px;
+        border-radius: 15px;
         height: 100px;
         background-color: darksalmon;
-        margin-bottom: 10px;
+        margin: 0 auto 10px auto;
+        width: 75%;
+        overflow: auto;
+        
+    }
+
+    #main div:nth-child(1){
+        margin-top: 20px;
+    }
+
+    #main div p{
+        color: ghostwhite;
+        font-size: 40px;
+        font-family: "Arial";
+        margin: 20px;
+    }
+
+    #main .odd{
+        background-color: hotpink;
+    }
+
+    #main .even{
+        background-color: lightpink;
     }
 
     #food-list {
@@ -94,9 +116,26 @@
 
     <!-- HTML5 version is <main></main> -->
     <div id="main">
-        <p>This area is the second div.</p>
-        <div></div>
-        <div></div>
+        
+        <div class="odd">
+            <p>This area is the second div.</p>
+        </div>
+
+        <div class="even">
+
+        </div>
+
+        <div class="odd">
+
+        </div>
+
+        <div class="even">
+
+        </div>
+
+        <div class="odd">
+
+        </div>
     </div>
 
     <!-- HTML5 version is <footer></footer> -->
