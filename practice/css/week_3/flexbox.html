@@ -1,0 +1,40 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>flexbox practice</title>
+
+    <style>
+        #my-flexbox{
+            background-color: hotpink;
+            height: 500px;
+            display: flex;
+        }
+        .flexbox-items{
+            background-color: lightpink;
+            flex-grow: 1;
+            margin: 20px;
+        }
+        #special-item{
+            flex-grow: 2;
+        }
+        #last-item{
+            flex-grow: 3;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div id="my-flexbox">
+        <div class="flexbox-items"></div>
+        <div id="special-item" class="flexbox-items"></div>
+        <div class="flexbox-items"></div>
+        <div id="last-item" class="flexbox-items"></div>
+    </div>
+
+</body>
+</html>
