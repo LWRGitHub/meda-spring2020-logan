@@ -33,6 +33,18 @@
         margin: 0 auto;
     }
 
+    #footer .footer-columns{
+        width: 296px;
+        height: 200px;
+        background-color: darkorchid;
+        display: inline-block;
+        margin: 2px;
+    }
+
+    #footer-left, #footer-right, #footer-center{
+
+    }
+
     #footer h6 {
         color: white;
     }
@@ -66,11 +78,11 @@
 
     #main div {
         border-radius: 15px;
-        height: 100px;
+
         background-color: darksalmon;
         margin: 0 auto 10px auto;
         width: 75%;
-        overflow: auto;
+
         background-image: url("ice.jpg");
         background-size: cover;
         
@@ -153,12 +165,8 @@
 
     <!-- HTML5 version is <footer></footer> -->
     <div id="footer">
-        <p>&copy; 2020 <span id="myname">Eduardo</span> Garcia</p>
-        <h6>This is really tiny text as well!</h6>
 
-        <div>
-            <h6>This is really tiny text!</h6>
-        </div>
+        <div class="footer-columns" id="footer-left"></div><div class="footer-columns" id="footer-center"></div><div class="footer-columns" id="footer-right"></div>
     </div>
 
     <ul id="food-list">
