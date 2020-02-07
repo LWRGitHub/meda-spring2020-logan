@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Bin</title>
+
+  <style>
+      thead{
+          text-align: center;
+          background-color: rgb(152, 125, 125);
+          width: 400px;
+          height: 100px;
+          
+          font-size: 14px;
+          color: white;
+      }
+      thead tr th{
+          height: 30px;
+          /* min-width: 10px; */
+          padding: 5px;;
+      }
+      table{
+          background-color: rgb(237, 237, 237);
+          font-family: "Courier";
+
+      }
+      #cat{
+        background-color: rgb(71, 133, 162);
+      }
+      #numx{
+          background-color:  rgb(206, 206, 206);
+      }
+      td{
+        text-align: center;
+      }
+      .tcon{
+          background-color: rgb(232, 232, 232);
+      }
+      tbody{
+          font-size: 13px;
+      }
+      
+  </style>
+</head>
+<body>
+
+    <table>
+        
+        <thead>
+            <tr>
+                <th colspan="8">AmD Power/Frequency Comparison</th>
+            </tr>
+            <tr id="cat">
+                <th>AnandTech</th>
+                <th>Cores</th>
+                <th>CPU TDP</th>
+                <th>&nbsp;</th>
+                <th>1-Core Power</th>
+                <th>1-Core Freq</th>
+                <th>Full Load Power/Core</th>
+                <th>Full Load Freq</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            
+            <tr class="tcon">
+                <td id="numx">3990X</td>
+                <td>64</td>
+                <td>280 W</td>
+                <td></td>
+                <td>10.4 W</td>
+                <td>4350</td>
+                <td>3.0 W</td>
+                <td>3450</td>
+            </tr>
+            <tr class="tcon">
+                <td id="numx">3970X</td>
+                <td>32</td>
+                <td>280 W</td>
+                <td></td>
+                <td>13.0 W</td>
+                <td>4310</td>
+                <td>7.0 W</td>
+                <td>3810</td>
+            </tr>
+            <tr class="tcon">
+                <td id="numx">3960X</td>
+                <td>24</td>
+                <td>280 W</td>
+                <td></td>
+                <td>13.5 W</td>
+                <td>4400</td>
+                <td>8.6 W</td>
+                <td>3950</td>
+            </tr>
+            <tr class="tcon">
+                <td id="numx">3950X</td>
+                <td>16</td>
+                <td>105 W</td>
+                <td></td>
+                <td>18.3 W</td>
+                <td>440</td>
+                <td>7.1 W</td>
+                <td>3885</td>
+            </tr>
+        </tbody>
+    </table>
+    
+
+</body>
+</html>
