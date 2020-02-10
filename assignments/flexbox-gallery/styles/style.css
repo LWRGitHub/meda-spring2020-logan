@@ -5,8 +5,11 @@ body{
 div#flex-gallery{
     display: flex;
     flex-wrap: wrap;
+    flex-flow: column wrap;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: flex-start;
+    height: 820px;
+    flex-grow: ;
 }
 
 #flex-gallery > figure{
@@ -17,11 +20,11 @@ div#flex-gallery{
 }
 
 figure{
-    width:432px;
+    width:202px;
 }
 
 figure > img{
-    width: 430px;
+    width: 202px;
     border-radius: 2px;
 }
 

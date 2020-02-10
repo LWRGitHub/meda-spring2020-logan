@@ -1,0 +1,58 @@
+body{
+    background-color: lightblue;
+}
+
+header, main, footer{
+    width: 900px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 50px;
+    font-size: 35px;
+}
+
+header{
+    padding-right: 0;
+    width: 950px;
+}
+
+header, main{
+    border-bottom: black 5px solid;
+}
+
+header h1{
+    font-family: "Zapfino";
+    font-size: 48px;
+    text-align: center;
+    color: red;
+    line-height: 80px;
+}
+
+#custom-height{
+    line-height: 72px;
+}
+
+#logo{
+    float: left;
+}
+
+#title-container{
+    margin-left: 200px;
+}
+
+nav ul{
+    text-align:right;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: lightcoral;
+    color: darkslateblue;
+    padding: 10px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-family: "Arial";
+}
+
+nav ul li a{
+    text-decoration: none;
+}
