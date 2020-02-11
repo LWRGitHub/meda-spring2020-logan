@@ -10,6 +10,8 @@ header, main, footer{
     font-size: 35px;
 }
 
+/* HEADER STYLES START */
+
 header{
     padding-right: 0;
     width: 950px;
@@ -53,6 +55,68 @@ nav ul li{
     font-family: "Arial";
 }
 
+nav ul li:hover{
+    background-color: white;
+}
+
 nav ul li a{
     text-decoration: none;
 }
+
+nav ul li a:link, nav ul li a:visited{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: white;
+    background-color: lightpink;
+}
+
+nav ul li a:active{
+    background-color: lightblue;
+}
+
+/* HEADER STYLES END */
+
+/* FOOTER STYLES START */
+
+footer {
+    color: red;
+    font-family: "Arial";
+    line-height: 48px;
+}
+
+#copyright{
+    text-align: center;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+
+#social-links ul{
+    text-align: right;
+}
+
+#social-links  ul li{
+    display: inline-block;
+    border: solid 1px red;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#social-links  ul li:hover{
+    color: white;
+    background-color: red;
+}
+
+#social-links ul li a{
+    text-decoration: none;
+    color: red;
+}
+
+#social-links ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+/* FOOTER STYLES END */
