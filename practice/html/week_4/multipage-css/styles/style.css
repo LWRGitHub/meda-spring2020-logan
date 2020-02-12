@@ -139,9 +139,10 @@ main{
 
 main h1{
     font-family: "Zapfino";
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
-    margin: 20px 0;
+    line-height: 80px;
+    margin-top: 30px;
     /* text-transform: uppercase; */
 }
 
@@ -161,3 +162,23 @@ main p{
     }
 
 /* HOMEPAGE STYLE END */
+
+/* GALLERY STYLE START */
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#gallery div{
+    width: 200px;
+}
+
+#gallery div img{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* GALLERY STYLE END */
