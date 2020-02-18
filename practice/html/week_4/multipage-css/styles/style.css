@@ -18,7 +18,7 @@ header{
 }
 
 header, main{
-    border-bottom: black 5px solid;
+    border-bottom: lightblue 5px solid;
 }
 
 header h1{
@@ -134,7 +134,7 @@ footer {
 
 main{
     font-family: "Arial";
-    color: slategray;
+    color: red;
 }
 
 main h1{
@@ -182,3 +182,69 @@ main p{
 }
 
 /* GALLERY STYLE END */
+
+/* CONTACT STYLE START */
+
+#contact hr{
+    border: solid 1px red;
+}
+
+#contact-flexbox{
+    display: flex;
+    /* height: 300px; */
+}
+
+#contact-flexbox div:first-child{
+    flex-grow: 3;
+    background-color: grey;
+}
+
+#contact-flexbox div:last-child{
+    flex-grow: 1;
+}
+
+#contact-form{
+
+    width: 400px;
+    margin: 20px
+}
+
+#contact-form label{
+    font-size: 24px;
+}
+
+#contact-form input{
+    border: dashed 1px red;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    place-content: center;
+    box-sizing: border-box;
+    font-size:  18px;
+    padding-left: 15px;
+}
+
+#contact-form .form-buttons{
+    margin: 20px;
+    color: red;
+    font-size: 22px;
+    width: 360px;
+}
+
+#contact-form .form-buttons:hover{
+    border: solid red 1px;
+    cursor: pointer;
+}
+
+#contact-form textarea{
+    border: dashed 1px red;
+    border-radius: 15px;
+    width: 100%;
+    max-width: 400px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 11px;
+    font-size: 22px;
+}
+
+/* CONTACT STYLE END */

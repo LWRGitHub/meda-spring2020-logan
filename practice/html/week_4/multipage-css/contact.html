@@ -34,9 +34,46 @@
         </nav>
     </header>
 
-    <main id="homepage">
-        <div>
-            <h1>Wellcome!</h1>
+    <main id="contact">
+
+        <h1>Contact us, FREE of charge!</h1>
+
+        <br />
+        <hr />
+
+        <div id="contact-flexbox">
+            <!-- div:first-child selects the following: -->
+            <div>
+                <form id="contact-form" action="#">
+                    <br />
+                    <lable for="name">Name:</lable><br />
+                    <input type="text" id="name"/><br />
+                    <lable for="email">Email:</lable><br />
+                    <input type="text" id="email"/><br />
+                    <lable for="subject">Subject:</lable><br />
+                    <input type="text" id="subject"/><br />
+                    <lable for="message">Message:</lable><br />
+                    <textarea id="message"></textarea><br />
+                    <input class="form-buttons" type="reset" />
+                    <input class="form-buttons" type="submit" />
+                    <br /><br />
+                </form>
+            </div>
+            <!-- div:last-child selects the following: -->
+            <div>
+
+                <dl id="additional-info">
+                    <dt>Address:</dt>
+                    <dd>395 Posh St. San Francisco CS, 94110</dd>
+                    <dt>Email Adress:</dt>
+                    <dd><a href="mailto:reallyposh@poshgallery.com" >reallyposh@pshgallery.com</a></dd>
+                    <dt>Phone:</dt>
+                    <dd><a href="tel:5555555555">(555) RLY-POSH</a></dd>
+                </dl>
+                
+            </div>
+        </div>
+
     </main>
 
     <footer>
