@@ -42,3 +42,7 @@ console.log(rounded);
 
 //Round down
 var roundedDown = Math.floor(45.9);
+
+var someNumber = Math.floor((Math.random() * 10) + 1);
+
+console.log(someNumber);
