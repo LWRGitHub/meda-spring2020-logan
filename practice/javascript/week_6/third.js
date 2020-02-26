@@ -43,6 +43,26 @@ console.log(rounded);
 //Round down
 var roundedDown = Math.floor(45.9);
 
+// let somevariable = ;
+
+// let
+// const
+
 var someNumber = Math.floor((Math.random() * 10) + 1);
 
 console.log(someNumber);
+
+const variable1 = "10", variable2 = 100, variable3 = true;
+
+console.log(variable1);
+console.log(variable2);
+console.log(variable3);
+
+//Calling before Defining
+console.log(howAreYou);
+var howAreYou = "Hello";
+
+//We reassign the howAreYou value to 100, then we call howAreYou for it's value and assign that to coolVariable.
+var coolVariable = howAreYou = 100;
+
+console.log(coolVariable);
