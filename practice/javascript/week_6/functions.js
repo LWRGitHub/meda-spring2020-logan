@@ -33,14 +33,6 @@ function nameOfFunction(num){
 nameOfFunction(3);
 nameOfFunction(3);
 
-function strBoolInt(){
-    console.log("string");
-    console.log(true);
-    console.log(2);
-}
-
-strBoolInt();
-
 /*
 Similar to CSS Rulsets
 
@@ -50,3 +42,36 @@ selector{
 }
 
 */
+
+function strBoolInt(){
+    console.log("string");
+    console.log(true);
+    console.log(2);
+}
+
+strBoolInt();
+
+// Arguments and Parameters
+
+//"hello" is the argument
+console.log("hello \n", 100, true);
+
+// text is the parameter (variable) that will exxept any data that is given to this function.
+function takeDataIn(text1, text2){
+    console.log(text1);
+    console.log(text2);
+}
+
+takeDataIn("How are you doing?", 2);
+takeDataIn("Goodbye!", true);
+
+
+function adder( num1, num2){
+
+    var sum = num1 + num2;
+
+    console.log("The sum of " + num1 + " and " + num2 + " is " + sum);
+
+}
+
+adder(1,1);
