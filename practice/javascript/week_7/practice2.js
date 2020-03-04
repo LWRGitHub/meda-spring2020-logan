@@ -8,7 +8,7 @@ function salaryConverter(arr){
 
         console.log(`Employee ${i}:`)
         var salary = arr[i];
-        
+
         if( salary < 50000){
 
             console.log("Old salary: " + salary);
@@ -28,3 +28,16 @@ function salaryConverter(arr){
 }
 
 console.log(salaryConverter(employeeSalaries));
+
+
+function salaryBonus(salary, bonus){
+
+    return salary + (salary * bonus);
+
+}
+
+
+var test = salaryBonus(10000, .10);
+var test2 = 
+
+console.log(test);
