@@ -1,3 +1,4 @@
+// Defines what the pyramidBuilder does. Takes in on e argument.
 function pyramid(num){
 
     var randomeNumber = Math.random() * num + 1;
