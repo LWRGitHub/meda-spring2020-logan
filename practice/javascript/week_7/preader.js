@@ -34,7 +34,7 @@ if (type == "text" || type == 'txt'){
     // This function returns a string of the contents of the file you read.
     // fs.readFileSync("filepath to file", "utf8");
 
-    var text = fs.readFileSync("filetotest.txt", "utf8");
+    var text = fs.readFileSync(testToText, "utf8");
 
     if (mode == "words" || mode == "word" || mode == "Word" || mode == "Words"){
         wordCount(text);
@@ -45,16 +45,9 @@ if (type == "text" || type == 'txt'){
     }
 
 } else {
+    console.log("Welcome to Paragraph Reader.\nYou can load in a string of file and tes for the amount of words or characters.\nExample for loading a file and testing for words:\n'node preader.js words file filetotest.text'\nAnother Eample for strings testing characters:\nnode preader.js characters text 'text to test'");
     console.log("The type of data can only be 'text' or 'file.'");
 }
-
-
-
-
-
-
-
-
 
 
 
