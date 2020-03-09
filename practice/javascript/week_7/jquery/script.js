@@ -3,45 +3,59 @@
 
 jQuery(document).ready( function () {
 
-    $("html").remove();
+    $("body").empty();
 
-    $("#light-off").click(function () {
-        $("body").css({"background-color": "black"});
-        $("body").css("color", "white");
+    $("body").append("<h1>Welcome</h1>");
+
+    $('h1').css({
+        "border-style": "dotted" 
     });
 
-    $("#light-on").click(function () {
-        var body = $("body");
+    $("body").append("<p>Topic One</p>");
 
-        body.css({"background-color": "white"});
-        body.css("color", "black");
-});
+    $("body").append("<ul><li>item 1</li><li>item 2</li><li>item 3</li></ul>");
 
-    // new JavaScript function, takes two arguments, first is callback, second is how long in milliseconds.
-    setTimeout(function () {
+    $("ul").css({
+        "background": "gray"
+    })
 
-        // Add an element to the webpage. .append()
-        $("ol").append("<li>This was added ager the fact.</li>");
+    // $("#light-off").click(function () {
+    //     $("body").css({"background-color": "black"});
+    //     $("body").css("color", "white");
+    // });
 
-        $("body").append("<h1>New section<h1><p>Welcome to this new section</p>");
+    // $("#light-on").click(function () {
+    //     var body = $("body");
 
-        // Adds an element to the start of the child list, .prepend()
-        $("body").prepend("<h1 style='color: red'>Alert! new things!</h1>");
+    //     body.css({"background-color": "white"});
+    //     body.css("color", "black");
+// });
 
-        //Adds an html as a child, replacing existing children, .html()
+//     // new JavaScript function, takes two arguments, first is callback, second is how long in milliseconds.
+//     setTimeout(function () {
 
-        $("ol").html("<li>All tasks done!</li>")
+//         // Add an element to the webpage. .append()
+//         $("ol").append("<li>This was added ager the fact.</li>");
 
-    }, 5000);
+//         $("body").append("<h1>New section<h1><p>Welcome to this new section</p>");
 
-    $("#recycleButton").click(function (){
+//         // Adds an element to the start of the child list, .prepend()
+//         $("body").prepend("<h1 style='color: red'>Alert! new things!</h1>");
 
-        // Removes the element you have selected.
-        $('body').remove();
+//         //Adds an html as a child, replacing existing children, .html()
 
-        // Removes all children of the element you have selected.
-        $("body").empty();
+//         $("ol").html("<li>All tasks done!</li>")
 
-    });
+//     }, 5000);
+
+//     $("#recycleButton").click(function (){
+
+//         // Removes the element you have selected.
+//         $('body').remove();
+
+//         // Removes all children of the element you have selected.
+//         $("body").empty();
+
+//     });
 
 });
