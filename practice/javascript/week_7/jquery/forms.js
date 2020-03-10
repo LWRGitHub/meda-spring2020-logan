@@ -3,25 +3,37 @@ $(document).ready(function (){
     $("#submit-button").click(function (event){
         event.preventDefault();
 
-        console.log("Clicked!");
+        //console.log("Clicked!");
 
         var username = $("#username").val();
-        console.log("Username: " + username);
+        //console.log("Username: " + username);
 
         var password = $("#password").val();
-        console.log("Password: " + password);
+        //console.log("Password: " + password);
 
         if(username == "admin"){
 
+            $("#messages").html("<p>Welcome Administrator</p>");
+
+            // console.log("welcome Administrator");
+
             if(password == "123456"){
-                console.log("welcome Administrator");
-                console.log("Administrator successfully logged in!")
+                
+                $("#messages").html("<p>Administrator succesfully logged in!</p>");
+
+                // console.log("Administrator successfully logged in!")
             } else {
-                console.log("Login failed! Wrong username or password")
+
+                $("#messages").html("<p>Loging failed! Wrong password!</p>")
+
+                // console.log("Login failed! Wrong username or password")
             }
 
         } else {
-            console.log("Welcome " + username + "!");
+
+            $("#messages").html("<p>Welcome " + username + "!</p>")
+
+            // console.log("Welcome " + username + "!");
         }
 
         
