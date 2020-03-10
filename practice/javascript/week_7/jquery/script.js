@@ -17,7 +17,18 @@ jQuery(document).ready( function () {
 
     $("ul").css({
         "background": "gray"
-    })
+    });
+
+    $("li:nth-child(2)").remove();
+    console.log($("li") );
+
+    //jQuery .next(), .prev()
+    // jQuery .parent(), .child()
+
+    $("body").children("ul").children("li");
+
+    $("body").parent();
+
 
     // $("#light-off").click(function () {
     //     $("body").css({"background-color": "black"});
